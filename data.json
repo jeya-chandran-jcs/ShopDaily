@@ -1,0 +1,122 @@
+[
+    {
+      "name": "Galaxy Tab S8",
+      "brand": "Samsung",
+      "category": "electronics",
+      "price": 45000,
+      "img": "https://m.media-amazon.com/images/I/81Vs371KLML.jpg"
+    },
+    {
+      "name": "iPhone 14 Pro Max",
+      "brand": "Apple",
+      "category": "electronics",
+      "price": 120000,
+      "img": "https://images-cdn.ubuy.co.in/633ff4156784f756b5031314-iphone-14-pro-max-256gb-gold.jpg"
+    },
+    {
+      "name": "Air Conditioner 1.5 Ton",
+      "brand": "Panasonic",
+      "category": "home appliances",
+      "price": 35000,
+      "img": "https://mahajanelectronics.com/cdn/shop/products/1_2ecc751d-2158-42f0-86f8-6c6eff57c2e6.jpg?v=1637649208"
+    },
+    {
+      "name": "Washing Machine",
+      "brand": "LG",
+      "category": "home appliances",
+      "price": 22000,
+      "img": "https://media.croma.com/image/upload/v1683557023/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/270904_0_hcmfy3.png"
+    },
+    {
+      "name": "Refrigerator Double Door",
+      "brand": "Whirlpool",
+      "category": "home appliances",
+      "price": 28000,
+      "img": "https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuY28uaW4vNjUzMGU0ZjI1M2RkMTA2ZWFiNWEyNjg1LXNtZXRhLXJlZnJpZ2VyYXRvci1mcmVuY2gtZG9vci13aXRoLWljZS5qcGc.jpg"
+    },
+    {
+      "name": "Men's Casual Shirt",
+      "brand": "Levi's",
+      "category": "clothing",
+      "price": 2000,
+      "img": "https://www.dennislingo.com/cdn/shop/products/l-c773-olive-dennis-lingo-original-imag72hffzwydgyh_1400x.jpg?v=1688646645"
+    },
+    {
+      "name": "Women's Summer Dress",
+      "brand": "H&M",
+      "category": "clothing",
+      "price": 1500,
+      "img": "https://images-cdn.ubuy.co.in/6631e3a141d4a45d7f12fa85-zxzy-boho-style-women-dress-long-sleeve.jpg"
+    },
+    {
+      "name": "Kids T-Shirt",
+      "brand": "GAP",
+      "category": "clothing",
+      "price": 1200,
+      "img": "https://ea59worx8nh.exactdn.com/wp-content/uploads/T-0010-70.jpg?strip=all&lossy=1&ssl=1"
+    },
+    {
+      "name": "LEGO Creator Set",
+      "brand": "LEGO",
+      "category": "toys",
+      "price": 5000,
+      "img": "https://m.media-amazon.com/images/I/71L+F0ztZvL.jpg"
+    },
+    {
+      "name": "Remote Control Car",
+      "brand": "Hot Wheels",
+      "category": "toys",
+      "price": 2500,
+      "img": "https://m.media-amazon.com/images/I/81ap+We87nL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "name": "Dollhouse Playset",
+      "brand": "Barbie",
+      "category": "toys",
+      "price": 3500,
+      "img": "https://m.media-amazon.com/images/I/81K2h0Kd15L.jpg"
+    },
+    {
+      "name": "Cricket Kit",
+      "brand": "SG",
+      "category": "sports kit",
+      "price": 8000,
+      "img": "https://m.media-amazon.com/images/I/710pNImAtXS.jpg"
+    },
+    {
+      "name": "Badminton Racket Set",
+      "brand": "Yonex",
+      "category": "sports kit",
+      "price": 3000,
+      "img": "https://m.media-amazon.com/images/I/61rgN4NLuMS.jpg"
+    },
+    {
+      "name": "Football",
+      "brand": "Nike",
+      "category": "sports kit",
+      "price": 1500,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXo8tXXCbU9nsV2Qn54ItpMWxaC5FzR2FaRA&s"
+    },
+    {
+      "name": "Microwave Oven",
+      "brand": "IFB",
+      "category": "home appliances",
+      "price": 18000,
+      "img": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_1100,f_auto,q_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/8f947bba-3a15-11eb-86b2-c203c8eba739.jpg"
+    },
+    {
+      "name": "Wireless Earbuds",
+      "brand": "Sony",
+      "category": "electronics",
+      "price": 8000,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCBRAjBjJYY4Lbz1DYHN4WZh_xJikcKCuY1g&s"
+    },
+    {
+      "name": "Smart Watch",
+      "brand": "Fitbit",
+      "category": "electronics",
+      "price": 15000,
+      "img": "https://m.media-amazon.com/images/I/71WoHCC996L.jpg"
+    }
+  ]
+  
