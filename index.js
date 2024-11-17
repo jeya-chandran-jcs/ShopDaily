@@ -26,7 +26,7 @@ mongoose.connect(mongoUrl)
 .then(()=>{
     app.listen(port,()=>{console.log(`server is running on port ${port}`)})
 })
-.catch(()=>{
+.catch((err)=>{
         console.log("error in server connectivity",err)
     })
 
