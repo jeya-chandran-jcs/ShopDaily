@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const port = process.env.Port || 5000; 
+const port = process.env.PORT || 5000; 
 const mongoUrl = process.env.MONGO_URL;
 
 // console.log("MongoDB URL:", mongoUrl);  // Log to verify the value
