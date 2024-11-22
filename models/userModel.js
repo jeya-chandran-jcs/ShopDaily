@@ -6,7 +6,8 @@ const userSchema= new mongoose.Schema({
     password:{type:String,required:true},
     userId:{type:String},
     resetPasswordToken:{type:String,default:null},
-    verified:{default:Boolean},
+    resetPasswordExpires:{type:Date,default:null},
+    verified:{type:Boolean,default:true},
     createdAt:{type:Date,default:Date.now},
     updatedAt:{type:Date,default:Date.now},
     

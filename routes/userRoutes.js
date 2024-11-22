@@ -62,9 +62,10 @@ router.post("/forget-password",async(req,res)=>{
         const resetToken= crypto.randomBytes(32).toString("hex")
         console.log("reset token >>>>",resetToken)
         user.resetPasswordToken=resetToken
+        user.resetPasswordExpires=Date.now()+ 3600000 //1hour
         await user.save()
 
-        const resetLink=`https://localhost:3000/user/reset-password/${resetToken}`
+        const resetLink=`http://localhost:5173/user/reset-password/${resetToken}`
         const mailOption=`
         <h1>Password reset request</h1>
         <p><b>click the link below to reset your password:</b></p>
@@ -90,13 +91,18 @@ router.post("/reset-password/:resetToken",async(req,res)=>{
     const {newPassword}=req.body
 
     try{
-        const user=await UserModel.findOne({resetPasswordToken:resetToken})
+        const user=await UserModel.findOne({
+            resetPasswordToken:resetToken,resetPasswordExpires:{$gt:Date.now()}
+        })
         if(!user){
             return res.status(404).json({message:"invalid token from  reet password"})
         }
         const hashedPassword=await bcrypt.hash(newPassword,10)
         user.password=hashedPassword
-        user.resetPasswordToken=null
+        // user.resetPasswordToken=null
+        user.resetPasswordToken=undefined
+        user.resetPasswordExpires=undefined
+
         await user.save()
 
         res.status(200).json({message:"password reset successfully"})
