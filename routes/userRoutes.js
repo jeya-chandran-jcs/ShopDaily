@@ -64,7 +64,7 @@ router.post("/forget-password",async(req,res)=>{
         user.resetPasswordToken=resetToken
         await user.save()
 
-        const resetLink=`https://localhost:3000/user/reset-password/${resetToken}`
+        const resetLink=`http://localhost:5173/user/reset-password/${resetToken}`
         const mailOption=`
         <h1>Password reset request</h1>
         <p><b>click the link below to reset your password:</b></p>
